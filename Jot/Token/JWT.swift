@@ -9,19 +9,13 @@
 import Foundation
 
 class JWT {
-    private let header: Header
-    private let payload: Payload
-    private let signature: Signature
+    let header: Header
+    let payload: Payload
+    let signature: Signature
     
     init(header: Header, payload: Payload, signature: Signature) {
         self.header = header
         self.payload = payload
         self.signature = signature
     }
-    
-    init?(token: String) {
-        return nil
-    }
 }
-
-

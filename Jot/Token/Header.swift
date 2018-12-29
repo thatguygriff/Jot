@@ -23,7 +23,9 @@ enum JwtType: String, Codable {
 }
 
 enum SigningAlgorithm: String, Codable {
-    case rsa = "RSA"
-    case hmac = "HMAC"
-    case ecdsa = "ECDSA"
+    case rsa256 = "RS256"
+    case rsa384 = "RS384"
+    case rsa512 = "RS512"
+    case hmac256 = "HM256"
+    case ecdsa256 = "ES256"
 }

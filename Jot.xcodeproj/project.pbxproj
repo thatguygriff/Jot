@@ -7,18 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		821E160721D7ED3F00E2D71A /* TokenDeserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821E160621D7ED3F00E2D71A /* TokenDeserializer.swift */; };
 		82CAF46A21D7D41800FED241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAF46921D7D41800FED241 /* AppDelegate.swift */; };
 		82CAF46C21D7D41C00FED241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CAF46B21D7D41C00FED241 /* Assets.xcassets */; };
 		82CAF46F21D7D41C00FED241 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82CAF46D21D7D41C00FED241 /* MainMenu.xib */; };
 		82CAF47B21D7D41C00FED241 /* JotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAF47A21D7D41C00FED241 /* JotTests.swift */; };
 		82CAF48821D7D56D00FED241 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAF48721D7D56D00FED241 /* JWT.swift */; };
-		82CAF48921D7D57700FED241 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAF48721D7D56D00FED241 /* JWT.swift */; };
 		82CAF48B21D7D5B700FED241 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAF48A21D7D5B700FED241 /* Payload.swift */; };
 		82CAF48D21D7D60100FED241 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAF48C21D7D60000FED241 /* Header.swift */; };
 		82CAF48F21D7D81800FED241 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAF48E21D7D81800FED241 /* Signature.swift */; };
-		82CAF49021D7DC5100FED241 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAF48A21D7D5B700FED241 /* Payload.swift */; };
-		82CAF49121D7DC5300FED241 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAF48C21D7D60000FED241 /* Header.swift */; };
-		82CAF49221D7DC5600FED241 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAF48E21D7D81800FED241 /* Signature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		821E160621D7ED3F00E2D71A /* TokenDeserializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenDeserializer.swift; sourceTree = "<group>"; };
 		82CAF46621D7D41800FED241 /* Jot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82CAF46921D7D41800FED241 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82CAF46B21D7D41C00FED241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,6 +111,7 @@
 				82CAF48A21D7D5B700FED241 /* Payload.swift */,
 				82CAF48C21D7D60000FED241 /* Header.swift */,
 				82CAF48E21D7D81800FED241 /* Signature.swift */,
+				821E160621D7ED3F00E2D71A /* TokenDeserializer.swift */,
 			);
 			path = Token;
 			sourceTree = "<group>";
@@ -224,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821E160721D7ED3F00E2D71A /* TokenDeserializer.swift in Sources */,
 				82CAF48D21D7D60100FED241 /* Header.swift in Sources */,
 				82CAF48B21D7D5B700FED241 /* Payload.swift in Sources */,
 				82CAF46A21D7D41800FED241 /* AppDelegate.swift in Sources */,
@@ -236,11 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82CAF49121D7DC5300FED241 /* Header.swift in Sources */,
-				82CAF49021D7DC5100FED241 /* Payload.swift in Sources */,
 				82CAF47B21D7D41C00FED241 /* JotTests.swift in Sources */,
-				82CAF49221D7DC5600FED241 /* Signature.swift in Sources */,
-				82CAF48921D7D57700FED241 /* JWT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
