@@ -2,7 +2,7 @@
 //  JotTests.swift
 //  JotTests
 //
-//  Created by James Griffin-Allwood on 2018-11-15.
+//  Created by James Griffin-Allwood on 2018-12-29.
 //  Copyright © 2018 James Griffin-Allwood. All rights reserved.
 //
 
@@ -10,25 +10,13 @@ import XCTest
 @testable import Jot
 
 class JotTests: XCTestCase {
+    var jwt: JWT?
 
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        self.jwt = JWT(token: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJqZ3JpZmZpbiIsIm5hbWUiOiJKYW1lcyBHcmlmZmluIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTAyMn0.DXfNW7Gzvie7LIl5-HSG9clm3sjeglYG2uNmsPvcNerBQbzLI06vys4YqqCMtrWKEFij_y2hKGP9YFdHSRMdtyVcGEXmYP6H6E62uGhASmGFzEHeSa6B1X1-v8lRt_YpIGEXhkUnxfhdcQ90HJlNfajv0ndnRFk8YJxRkmr99OI")
     }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testJWTInit() {
+        XCTAssertNotNil(self.jwt)
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
