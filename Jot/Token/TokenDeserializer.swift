@@ -40,7 +40,7 @@ extension JWT {
         
         do {
             let header = try decoder.decode(Header.self, from: headerData)
-            let payload = try decoder.decode(Payload.self, from: payloadData)
+            let payload = try JSONSerialization.jsonObject(with: payloadData) as? Payload ?? [:]
             let signature = Signature()
             self.init(header: header, payload: payload, signature: signature)
         } catch {

@@ -8,6 +8,4 @@
 
 import Foundation
 
-class Payload: Codable {
-    
-}
+typealias Payload = [String: Any]
