@@ -8,7 +8,7 @@
 
 import Foundation
 
-class JWT {
+class Jwt {
     let header: Header
     let payload: Payload
     let signature: Signature

@@ -9,7 +9,7 @@
 import Foundation
 import os.log
 
-extension JWT {
+extension Jwt {
     convenience init?(token: String) {
         let decoder = JSONDecoder()
         let jwtParts = token.split(separator: ".")
