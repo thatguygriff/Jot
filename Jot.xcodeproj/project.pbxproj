@@ -190,6 +190,7 @@
 				TargetAttributes = {
 					82CAF46521D7D41800FED241 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.HardenedRuntime = {
 								enabled = 1;
@@ -201,6 +202,7 @@
 					};
 					82CAF47521D7D41C00FED241 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 82CAF46521D7D41800FED241;
 					};
 				};
@@ -410,7 +412,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.unsupervised.Jot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -430,7 +432,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.unsupervised.Jot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -450,7 +452,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.unsupervised.JotTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jot.app/Contents/MacOS/Jot";
 			};
 			name = Debug;
@@ -471,7 +473,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ca.unsupervised.JotTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jot.app/Contents/MacOS/Jot";
 			};
 			name = Release;
